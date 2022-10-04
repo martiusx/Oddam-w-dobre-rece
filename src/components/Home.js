@@ -1,8 +1,16 @@
 import React from "react";
 
+import Nav from "./Nav/Nav";
+import Header from "./Header/Header";
+
 
 const Home = ()=>{
-    return(<h1>Hello</h1>)
+    return(
+    <>
+        <Nav></Nav>
+        <Header></Header>
+    </>
+        )
 }
 
 export default Home;

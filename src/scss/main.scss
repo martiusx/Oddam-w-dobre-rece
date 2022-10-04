@@ -1,5 +1,10 @@
 @import '/node_modules/reset-css/sass/_reset.scss';
 
 @import './settings/_fonts.scss';
+@import './settings/colors';
 
 @import './global/global.scss';
+
+@import '../components/Nav/scss/nav.scss';
+@import '../components/Header/scss/header';
+@import '../components/reusableComponents/scss/reusableComponents';
