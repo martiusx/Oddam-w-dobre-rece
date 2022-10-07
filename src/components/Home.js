@@ -5,10 +5,9 @@ import Header from "./Header/Header";
 
 const Home = ()=>{
     return(
-    <>
-        <Nav></Nav>
-        <Header></Header>
-    </>
+    <p>
+        Home
+    </p>
         )
 }
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 const NavSection = function(){
     return(
         <ul className="nav__section">

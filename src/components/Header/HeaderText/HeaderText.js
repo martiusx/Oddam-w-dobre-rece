@@ -5,14 +5,12 @@ import Button from "../../reusableComponents/button/Button";
 import Heading from "../../reusableComponents/Heading/Heading";
 
 import {
-    BrowserRouter as Router,
     Link
   } from "react-router-dom";
 
 
 const HeaderText = function(){
     return(
-        <Router>
             <div className="header__text">
                 <Heading 
                     firstText={'Zacznij pomagać!'} 
@@ -26,7 +24,6 @@ const HeaderText = function(){
                     </Link>
                 </div>
             </div>
-        </Router>
     )
 }
 
