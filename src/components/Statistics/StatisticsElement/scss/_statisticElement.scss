@@ -4,6 +4,7 @@
     &__quantity{
         font-size: 5.62rem;
         font-weight: lighter;
+        color: $stats-text-color;
     }
     &__title{
         font-size: 1.12rem;
@@ -12,5 +13,6 @@
     &__text{
         font-size: 1rem;
         font-weight: lighter;
+        line-height: 18px;
     }
 }
