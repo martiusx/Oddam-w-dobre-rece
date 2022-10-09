@@ -1,0 +1,16 @@
+.statisticsElement{
+    text-align: center;
+    width: 25%;
+    &__quantity{
+        font-size: 5.62rem;
+        font-weight: lighter;
+    }
+    &__title{
+        font-size: 1.12rem;
+        margin: 10px 0 28px 0;
+    }
+    &__text{
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+}
