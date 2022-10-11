@@ -1,4 +1,3 @@
-
 const MainSideElement = function(props){
     return(
         <div className="mainSideElement">

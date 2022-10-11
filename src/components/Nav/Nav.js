@@ -1,4 +1,3 @@
-import React from "react";
 import NavLogin from "./NavLogin/NavLogin";
 import NavSection from "./NavSection/NavSection";
 const Nav = () =>{

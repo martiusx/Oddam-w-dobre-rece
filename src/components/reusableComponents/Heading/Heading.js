@@ -1,4 +1,3 @@
-import React from "react";
 import decorationImg from '../../../assets/Decoration.svg'
 
 const Heading = function(props){

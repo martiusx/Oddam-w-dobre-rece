@@ -1,4 +1,3 @@
-import React from "react";
 import HeaderText from "./HeaderText/HeaderText";
 import HeaderImg from "./HeaderImg/HeaderImg";
 

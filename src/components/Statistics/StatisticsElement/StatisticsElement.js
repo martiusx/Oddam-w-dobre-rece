@@ -1,5 +1,3 @@
-
-
 const StatisticsElement = function(props){
     return(
         <div className="statisticsElement">
