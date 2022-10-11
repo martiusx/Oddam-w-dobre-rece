@@ -1,0 +1,19 @@
+@import "../MainSideElement/scss/mainSideElement";
+
+.mainSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 55px 0;
+    &__icons{
+        display: flex;
+        padding: 71px 0 80px 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 110px;
+        background-color: $main-side-color;
+
+    }
+}

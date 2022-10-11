@@ -1,0 +1,9 @@
+@import '../StatisticsElement/scss/statisticElement';
+
+.statistics{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../../../assets/3\ Columns\ Background.png');
+    background-position: center;
+    padding: 46px 0 86px 0;
+}
