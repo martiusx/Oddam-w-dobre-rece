@@ -3,15 +3,15 @@ import Header from "./Header/Header";
 import Statistics from "./Statistics/Statistics";
 import MainSide from "./MainSide/MainSide";
 
-const Home = ()=>{
-    return(
-    <>
-        <Nav/>
-        <Header/>
-        <Statistics/>
-        <MainSide/>
-    </>
-        )
+const Home = function(){
+    return (
+        <>
+            <Nav/>
+            <Header/>
+            <Statistics/>
+            <MainSide/>
+        </>
+    )
 }
 
 export default Home;

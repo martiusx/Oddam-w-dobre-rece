@@ -1,5 +1,5 @@
-const MainSideElement = function(props){
-    return(
+const MainSideElement = function(props) {
+    return (
         <div className="mainSideElement">
             <img className="mainSideElement__img" src={props.icon} alt={props.iconAlt}></img>
             <h4 className="mainSideElement__title">{props.title}</h4>

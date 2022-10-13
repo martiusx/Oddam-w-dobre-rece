@@ -1,7 +1,7 @@
-import decorationImg from '../../../assets/Decoration.svg'
+import decorationImg from '../../../assets/Decoration.svg';
 
-const Heading = function(props){
-    return(
+const Heading = function(props) {
+    return (
         <div className="heading">
             <h2>{props.firstText}</h2>
             <h2>{props.secondText}</h2>

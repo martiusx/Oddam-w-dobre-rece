@@ -1,7 +1,6 @@
-const HeaderImg = function(){
-    return(
-        <div className="header__img">
-        </div>
+const HeaderImg = function() {
+    return (
+        <div className="header__img"/>
     )
 }
 

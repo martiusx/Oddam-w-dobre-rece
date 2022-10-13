@@ -1,4 +1,4 @@
-const Button = function(props){
+const Button = function(props) {
     return(
         <button className="button">{props.text}</button>
     )

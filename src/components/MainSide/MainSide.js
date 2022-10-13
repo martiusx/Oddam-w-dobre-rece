@@ -1,17 +1,16 @@
+import { Link } from "react-router-dom";
 import MainSideElement from "./MainSideElement/MainSideElement";
 import Heading from "../reusableComponents/Heading/Heading";
 import Button from "../reusableComponents/button/Button";
-
 import sideIcon1 from '../../assets/Icon-1.png';
 import sideIcon2 from '../../assets/Icon-2.png';
 import sideIcon3 from '../../assets/Icon-3.png';
 import sideIcon4 from '../../assets/Icon-4.png';
 
-const MainSide = function(){
-    return(
-        <div className="mainSide">
-            <Heading firstText={'Wystarczą 4 proste kroki'}/>
-            <div className="mainSide__icons">
+
+const MainSideElements = function() {
+    return (
+        <div className="mainSide__icons">
                 <MainSideElement 
                     icon={sideIcon1} 
                     iconAlt={'ikona-wybierz rzeczy'} 
@@ -37,7 +36,21 @@ const MainSide = function(){
                     text={'kurier przyjedzie w dogodnym terminie'}
                 />
             </div>
-            <Button text={'ODDAJ RZECZY'}/>
+    )
+}  
+
+const MainSideButton = function() {
+    return (
+        <Link to="/logowanie"><Button text={'ODDAJ RZECZY'}/></Link>
+    )
+}
+
+const MainSide = function() {
+    return (
+        <div className="mainSide" id="mainSide">
+            <Heading firstText={'Wystarczą 4 proste kroki'}/>
+            <MainSideElements/>
+            <MainSideButton/>
         </div>
     )
 }
