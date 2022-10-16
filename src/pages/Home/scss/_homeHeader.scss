@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+
+    &__text {
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        &-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__img {
+        width: 50%;
+        background-image: url('../../../assets/Hero\ Image.png');
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+}

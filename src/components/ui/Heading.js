@@ -1,4 +1,4 @@
-import decorationImg from '../../../assets/Decoration.svg';
+import decorationImg from '../../assets/Decoration.svg';
 
 const Heading = function(props) {
     return (

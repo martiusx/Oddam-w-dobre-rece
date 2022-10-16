@@ -1,0 +1,29 @@
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../../../assets/3\ Columns\ Background.png');
+    background-position: center;
+    padding: 46px 0 86px 0;
+
+    &__Element {
+        text-align: center;
+        width: 25%;
+        
+        &-quantity {
+            font-size: 5.62rem;
+            font-weight: lighter;
+            color: $stats-text-color;
+        }
+
+        &-title {
+            font-size: 1.12rem;
+            margin: 10px 0 28px 0;
+        }
+
+        &-text {
+            font-size: 1rem;
+            font-weight: lighter;
+            line-height: 18px;
+        }
+    }   
+}

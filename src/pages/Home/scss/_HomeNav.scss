@@ -1,0 +1,57 @@
+.nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: 37px;
+    
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+    } 
+    
+    &__account {
+        display: flex;
+        padding: 0 152px;
+
+        li {
+            margin-left: 30px;
+            padding: 9px 10px;
+            border: 1px solid transparent;
+            cursor: pointer;
+
+            a {
+                text-decoration: none;
+                color: $lighter-text-color;
+                font-size: 1.23rem;
+            }
+
+            &:hover {
+                border-color: $nav-account-element;
+            }
+        }
+    }
+
+    &__section {
+        display: flex;
+        padding: 34px 142px;
+        
+        li {
+            margin-left: 55px;
+            padding: 9px 20px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            
+            a {
+                text-decoration: none;
+                color: $primary-text-color;
+                font-size: 1.38rem;
+            }
+
+            &:hover {
+                border-color: $primary-text-color;
+            }
+        }
+    }
+}

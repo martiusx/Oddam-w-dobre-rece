@@ -5,8 +5,10 @@
 
 @import './global/global.scss';
 
-@import '../components/Nav/scss/nav.scss';
-@import '../components/Header/scss/header';
-@import '../components/reusableComponents/scss/reusableComponents';
-@import '../components/Statistics/scss/statistics';
-@import '../components/MainSide/scss/mainSide';
+@import '../pages/Home/scss/HomeNav';
+@import '../pages/Home/scss/homeHeader';
+@import '../pages/Home/scss/homeStatistic';
+@import '../pages/Home/scss/HomeThreeColumns';
+
+@import '../components/scss/button';
+@import '../components/scss/heading';
