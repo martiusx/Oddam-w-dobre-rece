@@ -22,7 +22,7 @@ const Nav = function() {
                         <a href="#mainSide">O co chodzi?</a>
                     </li>
                     <li>
-                        <a href="/">O nas</a>
+                        <a href="#homeAboutUs">O nas</a>
                     </li>
                     <li>
                         <a href="/">Fundacja i organizacje</a>
