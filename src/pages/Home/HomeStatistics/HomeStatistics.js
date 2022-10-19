@@ -1,14 +1,6 @@
-const StatisticsElement = function(props) {
-    return (
-        <div className="statistics__Element">
-            <h3 className={"statistics__Element-quantity"}>{props.quantity}</h3>
-            <h4 className={"statistics__Element-title"}>{props.title}</h4>
-            <p className={"statistics__Element-text"}>{props.text}</p>
-        </div>
-    )
-}
+import StatisticsElement from "./StatisticsElement";
 
-const Statistics = function() {
+const HomeStatistics = function() {
     return (
         <div className="statistics">
             <StatisticsElement 
@@ -32,4 +24,4 @@ const Statistics = function() {
         </div>
     )
 }
-export default Statistics;
+export default HomeStatistics;

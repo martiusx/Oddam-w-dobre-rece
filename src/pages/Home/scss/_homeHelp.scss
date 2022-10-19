@@ -1,0 +1,32 @@
+.homeHelp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    p {
+        margin-top: 80px;
+        margin-bottom: 66px;
+        width: 37%;
+        font-size: 1.37rem;
+    }
+
+    &__element {
+        border-bottom: 1px solid black;   
+        padding-bottom: 20px;
+        text-align: left;
+        
+        p {
+            margin: 0;
+            font-size: 1rem;
+            width: auto;
+        }
+    }
+}

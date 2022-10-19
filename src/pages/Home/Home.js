@@ -1,17 +1,19 @@
 import Nav from "./HomeNav";
 import HomeHeader from "./HomeHeader";
-import Statistics from "./HomeStatistics";
-import HomeThreeColumns from "./HomeThreeColumns";
+import HomeStatistics from "./HomeStatistics";
+import HomeThreeColumns from "./HomeThreeColumns/HomeThreeColumns";
 import HomeAboutUs from "./HomeAboutUs";
+import HomeHelp from "./HomeHelp";
 
 const Home = function() {
     return (
         <>
             <Nav/>
             <HomeHeader/>
-            <Statistics/>
+            <HomeStatistics/>
             <HomeThreeColumns/>
             <HomeAboutUs/>
+            <HomeHelp/>
         </>
     )
 }

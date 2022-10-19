@@ -1,29 +1,12 @@
 import { Link } from "react-router-dom";
-import Heading from "../../components/ui/Heading";
-import Button from "../../components/ui/Button";
-import sideIcon1 from "../../assets/Icon-1.png";
-import sideIcon2 from "../../assets/Icon-2.png";
-import sideIcon3 from "../../assets/Icon-3.png";
-import sideIcon4 from "../../assets/Icon-4.png";
+import Heading from "../../../components/ui/Heading";
+import Button from "../../../components/ui/Button";
+import sideIcon1 from "./assets/Icon-1.png";
+import sideIcon2 from "./assets/Icon-2.png";
+import sideIcon3 from "./assets/Icon-3.png";
+import sideIcon4 from "./assets/Icon-4.png";
 
-const HomeThreeColumnsElement = function(props) {
-    return (
-        <div className="homeThreeColumns__Element">
-            <img 
-                className="homeThreeColumns__Element-img" 
-                src={props.icon} 
-                alt={props.iconAlt}
-            />
-            <h4 className="homeThreeColumns__Element-title">
-                {props.title}
-            </h4>
-            <div className="homeThreeColumns__Element-line"/>
-            <p className="homeThreeColumns__Element-text">
-                {props.text}
-            </p>
-        </div>
-    )
-}
+import HomeThreeColumnsElement from "./HomeThreeColumnsElement";
 
 const HomeThreeColumns = function() {
     return (
