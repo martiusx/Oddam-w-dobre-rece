@@ -1,7 +1,9 @@
 .homeContact {
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     margin-top: 100px;
-    padding: 200px 0;
+    padding: 200px 0 0 0;
     position: relative;
 
     &::before {

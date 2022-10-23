@@ -1,5 +1,6 @@
 import Heading from "../../../components/ui/Heading";
 import Button from "../../../components/ui/Button";
+import HomeFooter from "../HomeFooter";
 
 const HomeContact = function() {
     return (
@@ -27,6 +28,7 @@ const HomeContact = function() {
                     </div>
                 </form>
             </div>
+            <HomeFooter/>
         </div>
     )
 }

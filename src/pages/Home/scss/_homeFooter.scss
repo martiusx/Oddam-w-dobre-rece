@@ -1,0 +1,14 @@
+.homeFooter {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    display: flex;  
+    justify-content: flex-end;
+    padding: 0 180px;
+    align-self: flex-end;
+    justify-self: flex-end;
+    z-index: 10;
+
+    img {
+        margin-left: 20px;
+    }
+}
