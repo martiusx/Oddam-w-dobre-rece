@@ -19,16 +19,16 @@ const Nav = function() {
                         <a href="/">Start</a>
                     </li>
                     <li>
-                        <a href="#mainSide">O co chodzi?</a>
+                        <a href="/#homeThreeColumns">O co chodzi?</a>
                     </li>
                     <li>
-                        <a href="#homeAboutUs">O nas</a>
+                        <a href="/#homeAboutUs">O nas</a>
                     </li>
                     <li>
-                        <a href="/">Fundacja i organizacje</a>
+                        <a href="/#homeHelp">Fundacja i organizacje</a>
                     </li>
                     <li>
-                        <a href="/">Kontakt</a>
+                        <a href="/#homeContact">Kontakt</a>
                     </li>
                 </ul>
             </div>

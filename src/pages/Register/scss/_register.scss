@@ -1,0 +1,56 @@
+.register {
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__panel {
+        display: flex;
+        flex-direction: column;
+        background-color: #F0F1F1;
+        padding: 40px 65px;
+
+        &-email, &-password {
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            width: 250px;
+
+            input {
+
+                border: none;
+                border-bottom: 1px solid black;
+                background: transparent;
+                line-height: 30px;
+                margin-top: 10px;
+
+                &:focus {
+                    outline: none;
+                }
+    
+            }
+
+        }
+
+        &-password {
+            margin-top: 30px;
+        }
+    }
+
+    &__buttons{
+
+        .button{
+            border: none;
+            width: 150px;
+            height: 60px;
+            font-size: 1.25rem;
+            word-spacing: 0;
+            margin: 50px 138px;
+
+            &:hover {
+                border: 1px solid black;
+            }
+        }
+    }
+}

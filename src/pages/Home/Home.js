@@ -9,7 +9,6 @@ import HomeContact from "./HomeContact/HomeContact";
 const Home = function() {
     return (
         <>
-            <Nav/>
             <HomeHeader/>
             <HomeStatistics/>
             <HomeThreeColumns/>

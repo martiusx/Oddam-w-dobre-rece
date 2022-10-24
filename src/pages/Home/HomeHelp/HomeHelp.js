@@ -34,7 +34,7 @@ const HomeHelp = function() {
     }
 
     return (
-        <div className="homeHelp" >
+        <div className="homeHelp" id="homeHelp" >
             <Heading firstText="Komu pomagamy?" />
             <div className="homeHelp__wrapper">
                 <Button 

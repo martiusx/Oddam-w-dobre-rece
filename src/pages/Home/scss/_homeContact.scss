@@ -15,7 +15,7 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;   
-        opacity: 0.4;
+        opacity: 0.25;
         top: 0px;
         right: 0px;
         bottom: 0px;
@@ -34,9 +34,53 @@
         width: 50%;
         z-index: 10;
 
+        p {
+            color: rgb(59, 169, 59);
+            font-weight: bold;
+            line-height: 25px;
+        }
+
         &-form {
             display: flex;
             flex-direction: column;
+
+            span {
+                opacity: 0;
+                color: red;
+                margin-top: 5px;
+                font-size: .9rem;
+            }
+
+            .formInput {
+                display: flex;
+                flex-direction: column;
+            }
+
+
+            input:invalid[focused='true'] {
+                border-color: red;
+            }
+            input:invalid[focused='true'] ~ span {
+                opacity: 1;
+            }
+
+            input::placeholder{
+                color: #3C3C3C26;           
+            }
+    
+            textarea:invalid[focused='true'] ~ span {
+                opacity: 1;
+            }
+            textarea:invalid[focused='true'] {
+                border-color: red;
+            }
+
+            textarea::placeholder{
+                color: #3C3C3C26;    
+                font-family: $font-base;      
+                font-size: 1.1rem;
+            }
+    
         }
 
         &-wrapper {
@@ -47,7 +91,6 @@
         &-name,  &-email {
             display: flex;
             flex-direction: column;
-            border-bottom: 1px solid black;
             margin: 70px 0 40px 16px;
 
             input {
@@ -56,6 +99,7 @@
                 border: none;
                 outline: none;
                 background-color: transparent;
+                border-bottom: 1px solid black;
             }
             
             label {
@@ -67,7 +111,6 @@
             display: flex;
             flex-direction: column;
             margin-left: 16px;
-            border-bottom: 1px solid black;
 
             label {
                 font-weight: bold;    
@@ -76,9 +119,10 @@
             textarea {
                 border: none;
                 margin-top: 10px;
-                height: 100px;
+                height: 130px;
                 outline: none;
                 background-color: transparent;
+                border-bottom: 1px solid black;
             }
         }
 
