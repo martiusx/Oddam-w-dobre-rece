@@ -10,13 +10,17 @@ const FormTextarea = function(props) {
 
     return (
         <div className="formInput">
-            <label>{label}</label>
-            <textarea minLength={120} {...inputsProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()}/>
-            <span> {errorMessage}</span>
+            <label> {label} </label>
+            <textarea 
+                minLength={120} 
+                {...inputsProps} 
+                onChange={onChange} 
+                onBlur={handleFocus} 
+                focused={focused.toString()} 
+            />
+            <span> {errorMessage} </span>
         </div>
     )
-
 }
-
 
 export default FormTextarea;

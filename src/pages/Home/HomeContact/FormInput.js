@@ -10,13 +10,16 @@ const FormInput = function(props) {
 
     return (
         <div className="formInput">
-            <label>{label}</label>
-            <input {...inputsProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()}/>
-            <span> {errorMessage}</span>
+            <label> {label} </label>
+            <input 
+                {...inputsProps} 
+                onChange={onChange} 
+                onBlur={handleFocus} 
+                focused={focused.toString()} 
+            />
+            <span> {errorMessage} </span>
         </div>
     )
-
 }
 
-
-export default FormInput
+export default FormInput;
