@@ -2,7 +2,14 @@ import { useState } from "react";
 import Heading from "../../../components/ui/Heading";
 import Button from "../../../components/ui/Button";
 import HomeHelpElement from "./HomeHelpElement";
-import {fundations, organizations, local, functionsHeading, localHeading, organizationsHeading} from './HomeHelpTexts';
+import { 
+    fundations, 
+    organizations, 
+    local, 
+    functionsHeading, 
+    localHeading, 
+    organizationsHeading
+} from './HomeHelpTexts';
 
 const HomeHelp = function() {
     const [currentPage, setCurrentPage] = useState(1);
