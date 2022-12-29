@@ -1,4 +1,3 @@
-import Nav from "./HomeNav";
 import HomeHeader from "./HomeHeader";
 import HomeStatistics from "./HomeStatistics";
 import HomeThreeColumns from "./HomeThreeColumns/HomeThreeColumns";
