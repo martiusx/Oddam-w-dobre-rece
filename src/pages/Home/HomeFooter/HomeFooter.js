@@ -4,7 +4,7 @@ const HomeFooter = function() {
     return (
         <div className="homeFooter">
             <img src={facebookIcon} alt="facebook"></img>
-            <img src={instagramIcon} alr="instagram"></img>
+            <img src={instagramIcon} alt="instagram"></img>
         </div>
     )
 }
