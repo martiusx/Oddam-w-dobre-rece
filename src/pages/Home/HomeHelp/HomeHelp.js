@@ -13,7 +13,7 @@ import {
 
 const HomeHelp = function() {
     const [currentPage, setCurrentPage] = useState(1);
-    const [postsPerPage, setPostsPerPage] = useState(3);
+    const [postsPerPage] = useState(3);
     const [posts, setPosts] = useState(fundations);
     const [helpHeading, setHelpHeading] = useState(functionsHeading);
     const [btnActive, setBtnActive] = useState({
